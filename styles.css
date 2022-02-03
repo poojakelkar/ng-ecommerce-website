@@ -1,4 +1,8 @@
 /* Navbar Design */
+@font-face {
+    font-family: myFirstFont;
+    src: url(https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap);
+}
 
 .navbar {
     padding: 0px 165px;
@@ -38,3 +42,33 @@
 }
 
 /* Front end design */
+.login-container {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    margin: auto;
+    height: 480px;
+    width: 525px;
+    background-color: blueviolet;
+    align-items: center;
+    padding: 70px;
+}
+.login-container h1 {
+    color: white;
+    margin-left: 218px;
+}
+.email,
+.password {
+    width: 374px;
+    height: 40px;
+    border-radius: 5px;
+}
+.login-container button {
+    width: 374px;
+}
+.login-container checkbox {
+    margin-right: 10px;
+}
+.login-container .forget-password {
+    margin-left: 130px;
+}
