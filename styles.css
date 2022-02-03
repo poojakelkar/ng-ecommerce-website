@@ -1,0 +1,36 @@
+.navbar {
+    padding: 0px 165px;
+    height: 80px;
+}
+.navbar input {
+    width: 421px;
+    height: 40px;
+    border-radius: 5px;
+}
+.nav-right-container {
+    display: flex;
+    gap: 30px;
+}
+.nav-right-container i {
+    padding-top: 10px;
+}
+.badge1 {
+    position: absolute;
+    font-size: 12px;
+    top: 14px;
+    right: 205px;
+    padding: 0px 6px;
+    border-radius: 50%;
+    background-color: rgb(250, 53, 53);
+    color: white;
+}
+.badge2 {
+    position: absolute;
+    font-size: 12px;
+    top: 14px;
+    right: 150px;
+    padding: 0px 6px;
+    border-radius: 50%;
+    background-color: rgb(250, 53, 53);
+    color: white;
+}
