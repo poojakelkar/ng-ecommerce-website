@@ -1,0 +1,81 @@
+/* Navbar Design */
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    padding: 0px 165px;
+    height: 80px;
+}
+.navbar input {
+    width: 421px;
+    height: 40px;
+    border-radius: 5px;
+}
+.nav-right-container {
+    display: flex;
+    gap: 30px;
+}
+.nav-right-container i {
+    padding-top: 10px;
+}
+.badge1 {
+    position: absolute;
+    font-size: 12px;
+    top: 14px;
+    right: 205px;
+    padding: 0px 6px;
+    border-radius: 50%;
+    background-color: rgb(250, 53, 53);
+    color: white;
+}
+.badge2 {
+    position: absolute;
+    font-size: 12px;
+    top: 14px;
+    right: 150px;
+    padding: 0px 6px;
+    border-radius: 50%;
+    background-color: rgb(250, 53, 53);
+    color: white;
+}
+
+/* Front end design */
+.login-container {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    margin: 200px auto;
+    height: 480px;
+    width: 525px;
+    border-radius: 10px;
+    align-items: center;
+    padding: 40px 70px;
+
+    box-shadow: 2px -3px 13px -3px rgba(156, 147, 147, 0.94);
+    -webkit-box-shadow: 2px -3px 13px -3px rgba(156, 147, 147, 0.94);
+    -moz-box-shadow: 2px -3px 13px -3px rgba(156, 147, 147, 0.94);
+}
+.login-container h1 {
+    color: black;
+    margin: auto;
+    padding-bottom: 10px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.email,
+.password {
+    width: 374px;
+    height: 40px;
+    border-radius: 5px;
+}
+.login-container button {
+    width: 374px;
+}
+.login-container label {
+    color: rgb(82, 80, 80);
+    font-weight: bold;
+}
+.login-container .checkbox {
+    margin-right: 10px;
+}
