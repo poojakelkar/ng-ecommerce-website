@@ -1,0 +1,78 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    padding: 0px 165px;
+    height: 80px;
+}
+.navbar input {
+    width: 421px;
+    height: 40px;
+    border-radius: 5px;
+}
+.nav-right-container {
+    display: flex;
+    gap: 30px;
+}
+.nav-right-container i {
+    padding-top: 10px;
+}
+.badge1 {
+    position: absolute;
+    font-size: 12px;
+    top: 14px;
+    right: 205px;
+    padding: 0px 6px;
+    border-radius: 50%;
+    background-color: rgb(250, 53, 53);
+    color: white;
+}
+.badge2 {
+    position: absolute;
+    font-size: 12px;
+    top: 14px;
+    right: 150px;
+    padding: 0px 6px;
+    border-radius: 50%;
+    background-color: rgb(250, 53, 53);
+    color: white;
+}
+
+/* fort end */
+.card {
+    margin: 30px 165px;
+    width: 700px;
+    height: 360px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: -9px -3px 73px -43px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -9px -3px 73px -43px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -9px -3px 73px -43px rgba(0, 0, 0, 0.75);
+}
+.card img {
+    position: relative;
+    width: 309px;
+    height: 390px;
+    padding-right: 40px;
+}
+.card .img-label {
+    margin-top: 40px;
+    font-size: 24px;
+    color: black;
+    margin-right: 200px;
+}
+.card .price {
+    font-size: 32px;
+    font-weight: bolder;
+}
+.card .strike {
+    font-size: 24px;
+    color: #888;
+}
+.card .off{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(87, 87, 87);
+}
