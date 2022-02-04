@@ -1,7 +1,6 @@
 /* Navbar Design */
-@font-face {
-    font-family: myFirstFont;
-    src: url(https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap);
+body {
+    font-family: "Poppins", sans-serif;
 }
 
 .navbar {
@@ -46,16 +45,23 @@
     display: flex;
     /* flex-direction: column; */
     flex-wrap: wrap;
-    margin: auto;
+    margin: 200px auto;
     height: 480px;
     width: 525px;
-    background-color: blueviolet;
+    border-radius: 10px;
     align-items: center;
-    padding: 70px;
+    padding: 40px 70px;
+
+    box-shadow: 2px -3px 13px -3px rgba(156, 147, 147, 0.94);
+    -webkit-box-shadow: 2px -3px 13px -3px rgba(156, 147, 147, 0.94);
+    -moz-box-shadow: 2px -3px 13px -3px rgba(156, 147, 147, 0.94);
 }
 .login-container h1 {
-    color: white;
-    margin-left: 218px;
+    color: black;
+    margin: auto;
+    padding-bottom: 10px;
+    font-size: 32px;
+    font-weight: 700;
 }
 .email,
 .password {
@@ -66,9 +72,17 @@
 .login-container button {
     width: 374px;
 }
-.login-container checkbox {
+.login-container .forget-password {
+    margin-left: auto;
+    font-size: 16px;
+}
+.login-container label {
+    color: rgb(82, 80, 80);
+    font-weight: bold;
+}
+.login-container .checkbox {
     margin-right: 10px;
 }
-.login-container .forget-password {
-    margin-left: 130px;
+.new-account {
+    margin: auto;
 }
