@@ -58,7 +58,7 @@ body {
     padding-right: 40px;
 }
 .card .img-label {
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 24px;
     color: black;
     margin-right: 200px;
@@ -71,8 +71,34 @@ body {
     font-size: 24px;
     color: #888;
 }
-.card .off{
+.card .off {
     font-size: 18px;
     font-weight: bold;
     color: rgb(87, 87, 87);
+}
+.add .sub {
+    border-radius: 50%;
+    padding: 2px 6px;
+    border: 1px solid black;
+}
+.quantity .add {
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: 1px 6px;
+    margin: 3px;
+}
+.quantity .total {
+    border-radius: 2px;
+    border: 1px solid black;
+    padding: 3px 20px;
+    margin: 3px;
+}
+.quantity{
+    margin-bottom: 20px;
+}
+.remove-btn,
+.move-btn {
+    width: 313px;
+    height: 40px;
+    margin-top: 10px;
 }
