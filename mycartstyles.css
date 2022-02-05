@@ -93,7 +93,7 @@ body {
     padding: 3px 20px;
     margin: 3px;
 }
-.quantity{
+.quantity {
     margin-bottom: 20px;
 }
 .remove-btn,
@@ -103,9 +103,34 @@ body {
     margin-top: 10px;
 }
 
-.price-container{
-    margin: 100px;
-    width: 520px;
-    height: 488px;
-    background-color: blue;
+/*  */
+.price-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 200px;
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    box-shadow: -9px -3px 73px -43px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -9px -3px 73px -43px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -9px -3px 73px -43px rgba(0, 0, 0, 0.75);
+    padding: 30px;
+}
+.price-container label {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.price-title{
+    font-size: 24px;
+    font-weight: 700;
+    border-bottom: 1px solid black;
+}
+.total{
+    font-weight: bold;
+    border-top: 1px solid black ;
+    border-bottom: 1px solid black;
+}
+.price-footer{
+    padding: 5px;
 }
