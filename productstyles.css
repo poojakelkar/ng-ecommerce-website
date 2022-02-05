@@ -51,10 +51,11 @@ body {
 .main-grid-container {
     display: grid;
     grid-template-areas: "menu menu main main main main";
-    grid-gap: 0px;
+    grid-gap: 10px;
     /* padding: 10px; */
 }
 .side-bar {
+    padding: 0px 165px;
     width: 200px;
     background-color: rgb(255, 255, 255);
 }
@@ -69,7 +70,7 @@ body {
     padding: 10px;
 }
 .card {
-    margin: 30px auto;
+    margin: 30px 10px;
     width: 600px;
     height: 320px;
     background-color: white;
