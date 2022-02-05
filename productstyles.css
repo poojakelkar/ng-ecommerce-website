@@ -5,6 +5,7 @@ body {
 .navbar {
     padding: 0px 165px;
     height: 80px;
+    background-color: white;
 }
 .navbar input {
     width: 421px;
@@ -39,11 +40,38 @@ body {
     color: white;
 }
 
+/* main div container */
+.item1 {
+    grid-area: menu;
+}
+
+.item2 {
+    grid-area: main;
+}
+.main-grid-container {
+    display: grid;
+    grid-template-areas: "menu menu main main main main";
+    grid-gap: 0px;
+    /* padding: 10px; */
+}
+.side-bar {
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+}
+
 /* front end */
+/* grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+    padding: 10px;
+}
 .card {
-    margin: 30px 165px;
-    width: 630px;
-    height: 350px;
+    margin: 30px auto;
+    width: 600px;
+    height: 320px;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -53,8 +81,8 @@ body {
 }
 .card img {
     position: relative;
-    width: 300px;
-    height: 349px;
+    width: 260px;
+    height: 319px;
     padding-right: 20px;
 }
 .card .img-label {
@@ -103,34 +131,4 @@ body {
     margin-top: 10px;
 }
 
-/*  */
-.price-container {
-    display: flex;
-    flex-direction: column;
-    margin: 10px 200px;
-    width: 400px;
-    height: 450px;
-    background-color: white;
-    box-shadow: -9px -3px 73px -43px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: -9px -3px 73px -43px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -9px -3px 73px -43px rgba(0, 0, 0, 0.75);
-    padding: 30px;
-}
-.price-container label {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 10px;
-}
-.price-title {
-    font-size: 24px;
-    font-weight: 700;
-    border-bottom: 1px solid black;
-}
-.total {
-    font-weight: bold;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-}
-.price-footer {
-    padding: 5px;
-}
+/* side bar */
