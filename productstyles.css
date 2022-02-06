@@ -3,7 +3,7 @@ body {
 }
 
 .navbar {
-    padding: 0px 165px;
+    padding: 0px 150px;
     height: 80px;
     background-color: white;
 }
@@ -55,7 +55,7 @@ body {
     /* padding: 10px; */
 }
 .side-bar {
-    padding: 0px 165px;
+    padding: 0px 150px;
     width: 200px;
     background-color: rgb(255, 255, 255);
 }
@@ -71,7 +71,7 @@ body {
 }
 .card {
     margin: 30px 10px;
-    width: 600px;
+    width: 550px;
     height: 320px;
     background-color: white;
     display: flex;
@@ -127,9 +127,30 @@ body {
 }
 .remove-btn,
 .move-btn {
-    width: 313px;
+    width: 250px;
     height: 40px;
     margin-top: 10px;
 }
 
 /* side bar */
+.filter {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.clear {
+    font-weight: 100;
+    border-bottom: 1px solid black;
+}
+.price {
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.price-slider-text{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    font-size: small;
+}
