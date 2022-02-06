@@ -23,7 +23,7 @@ body {
     position: absolute;
     font-size: 12px;
     top: 14px;
-    right: 205px;
+    right: 190px;
     padding: 0px 6px;
     border-radius: 50%;
     background-color: rgb(250, 53, 53);
@@ -33,7 +33,7 @@ body {
     position: absolute;
     font-size: 12px;
     top: 14px;
-    right: 150px;
+    right: 135px;
     padding: 0px 6px;
     border-radius: 50%;
     background-color: rgb(250, 53, 53);
@@ -54,11 +54,7 @@ body {
     grid-gap: 10px;
     /* padding: 10px; */
 }
-.side-bar {
-    padding: 0px 150px;
-    width: 200px;
-    background-color: rgb(255, 255, 255);
-}
+
 
 /* front end */
 /* grid container */
@@ -133,10 +129,15 @@ body {
 }
 
 /* side bar */
+.side-bar {
+    padding: 0px 150px;
+    width: 380px;
+    background-color: rgb(255, 255, 255);
+}
 .filter {
     display: flex;
     justify-content: space-between;
-    gap: 80px;
+    gap: 150px;
     font-weight: bold;
     margin-bottom: 40px;
 }
@@ -148,9 +149,24 @@ body {
     font-weight: bold;
     margin-bottom: 40px;
 }
+.slidecontainer{
+    color: #888;
+    margin-bottom: 40px;
+}
 .price-slider-text{
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 60px;
     font-size: small;
 }
+.price-slider{
+    width: 180px;
+    border: 1px solid #888;
+}
+.text-category{
+    font-weight: bold;
+}
+.checkboxes{
+    display: flex; 
+}   
+

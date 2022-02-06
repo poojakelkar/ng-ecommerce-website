@@ -22,7 +22,7 @@ body {
     position: absolute;
     font-size: 12px;
     top: 14px;
-    right: 205px;
+    right: 190px;
     padding: 0px 6px;
     border-radius: 50%;
     background-color: rgb(250, 53, 53);
@@ -32,12 +32,13 @@ body {
     position: absolute;
     font-size: 12px;
     top: 14px;
-    right: 150px;
+    right: 135px;
     padding: 0px 6px;
     border-radius: 50%;
     background-color: rgb(250, 53, 53);
     color: white;
 }
+
 
 /* front end */
 .card {
