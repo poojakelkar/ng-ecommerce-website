@@ -68,7 +68,7 @@ body {
 .card {
     margin: 30px 10px;
     width: 550px;
-    height: 320px;
+    height: 350px;
     background-color: white;
     display: flex;
     flex-wrap: wrap;
@@ -79,8 +79,8 @@ body {
 .card img {
     position: relative;
     width: 260px;
-    height: 319px;
-    padding-right: 20px;
+    height: 359px;
+    padding-right: 10px;
 }
 .card .img-label {
     margin-top: 30px;
@@ -130,6 +130,8 @@ body {
 
 /* side bar */
 .side-bar {
+    display: flex;
+    flex-wrap: wrap;
     padding: 0px 150px;
     width: 380px;
     background-color: rgb(255, 255, 255);
@@ -163,10 +165,12 @@ body {
     width: 180px;
     border: 1px solid #888;
 }
+
 .text-category{
     font-weight: bold;
 }
 .checkboxes{
-    display: flex; 
-}   
+    position: relative;
+    font-size: 14px;
+}
 
