@@ -1,0 +1,140 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    padding: 0px 150px;
+    height: 80px;
+    background-color: white;
+}
+.navbar input {
+    width: 421px;
+    height: 40px;
+    border-radius: 5px;
+}
+.nav-right-container {
+    display: flex;
+    gap: 30px;
+}
+.nav-right-container i {
+    padding-top: 10px;
+}
+.badge1 {
+    position: absolute;
+    font-size: 12px;
+    top: 14px;
+    right: 190px;
+    padding: 0px 6px;
+    border-radius: 50%;
+    background-color: rgb(250, 53, 53);
+    color: white;
+}
+.badge2 {
+    position: absolute;
+    font-size: 12px;
+    top: 14px;
+    right: 135px;
+    padding: 0px 6px;
+    border-radius: 50%;
+    background-color: rgb(250, 53, 53);
+    color: white;
+}
+
+/* main div container */
+.item1 {
+    grid-area: menu;
+}
+
+.item2 {
+    grid-area: main;
+}
+.main-grid-container {
+    display: grid;
+    grid-template-areas: "menu menu main main main main";
+    grid-gap: 10px;
+    /* padding: 10px; */
+}
+
+/* front end */
+/* grid container */
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+    padding: 10px;
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+}
+.card {
+    width: 250px;
+    height: 400px;
+    background-color: white;
+    margin: 16px;
+}
+.card img {
+    width: 250px;
+    height: 300px;
+}
+.price-tag,
+.img-label {
+    margin: auto;
+    color: black;
+}
+.wishlist {
+    margin: 40px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.card .fas {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    color: rgb(199, 0, 0);
+}
+/* side bar */
+.side-bar {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 0px 0px 50px;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+}
+.filter {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    font-weight: bold;
+}
+.clear {
+    font-weight: 100;
+}
+.price {
+    font-weight: bold;
+    padding: 0px 80px 0px 0px;
+}
+.slidecontainer {
+    color: #888;
+}
+.price-slider-text {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    font-size: small;
+}
+.price-slider {
+    width: 180px;
+    border: 1px solid #888;
+}
+
+.text-category {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.checkboxes {
+    position: relative;
+    font-size: 16px;
+    gap: 30px;
+}
