@@ -91,3 +91,7 @@ body {
     display: grid;
     grid-template-columns: auto auto;
 }
+.title{
+    border: none;
+    color: black;
+}

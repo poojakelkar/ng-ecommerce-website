@@ -70,8 +70,11 @@ body {
     height: 40px;
     border-radius: 5px;
 }
-.login-container button {
+.login-container button{
     width: 374px;
+}
+.login-btn{
+    color: white;
 }
 .login-container .forget-password {
     margin-left: auto;

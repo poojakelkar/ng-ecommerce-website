@@ -40,6 +40,16 @@ body {
 }
 
 /* card styles */
+.wishlist {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+.wishlist a {
+    color: white;
+}
 .card-container {
     display: flex;
     flex-direction: row;
@@ -59,11 +69,7 @@ body {
     margin: auto;
     color: black;
 }
-.wishlist {
-    margin: 40px 50%;
-    font-size: 32px;
-    font-weight: 700;
-}
+
 .card .fas {
     position: absolute;
     top: 7px;

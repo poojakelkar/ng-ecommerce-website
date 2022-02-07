@@ -42,7 +42,7 @@ body {
 
 /* front end */
 .card {
-    margin: 30px 165px;
+    margin: 50px 150px;
     width: 630px;
     height: 350px;
     background-color: white;
@@ -103,18 +103,21 @@ body {
     height: 40px;
     margin-top: 10px;
 }
+.remove-link{
+    color: white;
+}
 
 /*  */
 .price-container {
     display: flex;
     flex-direction: column;
-    margin: 10px 200px;
+    margin: 50px 10px;
     width: 400px;
     height: 450px;
     background-color: white;
-    box-shadow: -9px -3px 73px -43px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: -9px -3px 73px -43px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -9px -3px 73px -43px rgba(0, 0, 0, 0.75);
+    box-shadow: -9px -3px 73px -50px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -9px -3px 73px -50px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -9px -3px 73px -50px rgba(0, 0, 0, 0.75);
     padding: 30px;
 }
 .price-container label {
@@ -134,4 +137,9 @@ body {
 }
 .price-footer {
     padding: 5px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
 }
