@@ -19,42 +19,87 @@
         />
         <link rel="stylesheet" href="homestyles.css" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://neo-ui.netlify.app/styles.css">
         
     </head>
     <body>
-        <nav class="navbar navbar-white bg-white">
-            <p>MyWebsite</p>
+        <nav class="navbar">
+            <p class="head">MyWebsite</p>
             <input class="search" type="text" placeholder="Search"></input>
 
             <div class="nav-right-container">
-                <button class="btn btn-primary">Login</button>
-                <i class="far fa-heart fa-lg"></i><span class="badge1">4</span>
-                <i class="fas fa-shopping-cart fa-lg"></i><span class="badge2">4</span>
+                <button class="login-btn">Login</button>
+                <i class="far fa-heart fa-lg"></i>
+                <i class="fas fa-shopping-cart fa-lg"><span class="badge2">4</span></i>
             </div>
         </nav>
 
         <div class="home-grid">
             <div class="grid-container">
-                <img class="grid-photos" src="/photo2.jpg"><a href="/firstProduct/index.html" class="title">Men</a>
-                <img class="grid-photos" src="/photo2.jpg"><a href="/firstProduct/index.html" class="title">Women</a>
-                <img class="grid-photos" src="/photo2.jpg"><a href="/firstProduct/index.html" class="title">Girls</a>
-                <img class="grid-photos" src="/photo2.jpg"><a href="/firstProduct/index.html" class="title">Boys</a>
-                <img class="grid-photos" src="/photo2.jpg"><a href="/firstProduct/index.html" class="title">Child</a>
+                <a href="/firstProduct/index.html"> 
+                    <img class="grid-photos" src="/photo2.jpg"/>
+                    <p  class="title">Men</p>
+                </a>
+                <a href="/firstProduct/index.html"> 
+                    <img class="grid-photos" src="/photo2.jpg"/>
+                    <p  class="title">Women</p>
+                </a>
+                <a href="/firstProduct/index.html"> 
+                    <img class="grid-photos" src="/photo2.jpg"/>
+                    <p  class="title">Girl</p>
+                </a>
+                <a href="/firstProduct/index.html"> 
+                    <img class="grid-photos" src="/photo2.jpg"/>
+                    <p  class="title">Boys</p>
+                </a>
+                <a href="/firstProduct/index.html"> 
+                    <img class="grid-photos" src="/photo2.jpg"/>
+                    <p  class="title">Child</p>
+                </a>
             </div>
         </div>
-        <div class="front-pic"></div>
+        
+            <div class="offer-banner"><img class="offer-card" src="https://img.freepik.com/free-vector/big-sale-promotion-horizontal-banner-with-three-characters-holding-shopping-bag-box_1284-63126.jpg" alt="sale-card"></div>
+                <div class="grid-banner-container">
+                    <div class="clothing-button">
+                        <img class="clothing women-clothing" src="https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NTR8fHdvbWVuJTIwZHJlc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="first-image"/>
+                        <div class="image-footer">
+                            <label class="img-label">Women-Clothing</label>
+                            <p class="discount">50% Discount</p> 
+                        </div>  
+                    </div>
+                    <div class="clothing-button">
+                        <img class="clothing men-clothing" src="https://images.unsplash.com/photo-1512353087810-25dfcd100962?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" alt="second-image"/>
+                        <div class="image-footer">
+                            <label class="img-label">Man-Clothing</label>
+                            <p class="discount">60% Discount</p>
+                        </div>
+                    </div>
+                    
+                    <div class="clothing-button">
+                        <img class="clothing child-clothing" src="https://images.unsplash.com/flagged/photo-1562088440-ee50e79b2f98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NDF8fHNpYmxpbmdzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="third-image"/>
+                        <div class="image-footer">
+                            <label class="img-label">Children-Clothing</label>
+                            <p class="discount">40% Discounr</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
                 <div class="offer-footer">
                     <div class="card">
                         <img class="footer-img" src="/coat.jpg">
                             <p class="offer">New Arrivals</p>
                             <label class="offer">Summer Collection</label>
                             <p class="off">50% Off</p>
+                            <button class="click-me-btn">Shop Here</button>
                     </div>
                     <div class="card">
                         <img class="footer-img" src="/coat.jpg">
                             <p class="offer">New Arrivals</p>
                             <label class="offer">Summer Collection</label>
                             <p class="off">50% Off</p>
+                            <button class="click-me-btn">Shop Here</button>
                     </div>
                 </div>
     </body>

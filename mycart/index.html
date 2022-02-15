@@ -19,61 +19,57 @@
         />
         <link rel="stylesheet" href="mycartstyles.css" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://neo-ui.netlify.app/styles.css">
         
     </head>
     <body>
-        <nav class="navbar navbar-white bg-white">
-            <p>MyWebsite</p>
+        <nav class="navbar">
+            <p class="head">MyWebsite</p>
             <input class="search" type="text" placeholder="Search"></input>
 
             <div class="nav-right-container">
-                <button class="btn btn-primary">Login</button>
-                <i class="far fa-heart fa-lg"></i><span class="badge1">4</span>
-                <i class="fas fa-shopping-cart fa-lg"></i><span class="badge2">4</span>
+                <button class="login-btn">Login</button>
+                <i class="far fa-heart fa-lg"></i>
+                <i class="fas fa-shopping-cart fa-lg"><span class="badge2">4</span></i>
             </div>
         </nav>
-
-        <div class="grid-container">
-            <div class="card">
-                <img src="/coat.jpg">
+        <div class="grid-container-product">
+            <div class="card-product">
+                <img class="image-product" src="/coat.jpg" />
+                <div class="card-title">
                     <p class="img-label">Man Premium Coat</p>
-                    <label class="price">₹ 600 <del class="strike">₹ 3000</del></label>
+                    <label class="product-price"
+                        >₹ 600 <del class="strike">₹ 3000</del></label
+                    >
                     <p class="off">50% Off</p>
                     <div class="quantity">
-                        <span>Quantity:</span> 
+                        <span>Quantity:</span>
                         <span class="add">-</span>
-                        <span class="total">1</span>
+                        <span class="quantity-total">1</span>
                         <span class="add">+</span>
                     </div>
-                    <button class="btn btn-primary remove-btn"><a class="remove-link" href="/product/index.html">Remove from Cart</a> </button>
-                    <button class="btn btn-primary-outline move-btn"><a href="/wishlist/wishlist.html">Move to Wishlist</a></button>
-             </div>
-      
-        
-    
-            <div class="price-container">
-
-                <p class="price-title">Card Title</p>
-            
-              <div class="price-body">
-                        <label>Price (2 items)
-                        <p class="price">₹ 1200</p></label>
-            
-                        <label>Discount
-                        <p class="discount">- ₹ 1999 </p></label>
-            
-                        <label>Delivery Charges
-                        <p class="delivery-charges">₹ 400</p></label>
-            
-                        <label class="total">TOTAL AMOUNT
-                        <p>₹ 1600 </p></label>
+                    <button class="remove-btn"><a class="remove-link" href="/product/index.html">Remove from Cart</a> </button>
+                    <button class="move-btn"><a class="remove-link" href="/wishlist/wishlist.html">Move to Wishlist</a></button>
                 </div>
-                    
+            </div>
+      
+            <div class="price-container">
+                <p class="price-title">Card Title</p>
+
+                <div class="price-body">
+                    <label class="price-label">Price (2 items)<p class="price">₹ 1200</p></label>
+
+                    <label  class="price-label">Discount<p class="price">- ₹ 1999</p></label>
+
+                    <label class="price-label">Delivery Charges<p class="price">₹ 400</p></label>
+
+                    <label class="price-label total">TOTAL AMOUNT<p class="price">₹ 1600</p></label>
+                </div>
+
                 <p class="price-footer">You will save ₹1999 on this order</p>
 
-                <button class="btn btn-primary">Place Order</button>
-
-              </div>
+                <button class="place-order">Place Order</button>
+            </div>
         </div>
     </body>
 </html>
