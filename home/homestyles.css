@@ -42,16 +42,15 @@ body {
     padding: 0 2rem 0 3rem;
 }
 .title {
-    position: absolute;
-    top: 3rem;
-    left: 8rem;
+    text-align: center;
     font-weight: bold;
-    color: var(--light-white);
+    padding-bottom: 1rem;
+    color: var(--grey-color-font);
 }
 .offer-banner {
     width: 80rem;
     height: 18rem;
-    margin: 1rem 0rem 0rem 8rem;
+    margin: 3rem 0rem 1rem 8rem;
 }
 .offer-card {
     width: 100%;
@@ -71,7 +70,7 @@ body {
 }
 .image-footer{
     position: absolute;
-    top: 50.5rem;
+    top: 53.5rem;
     width: 20rem;
     border-radius: 10px;
     text-align: center;
