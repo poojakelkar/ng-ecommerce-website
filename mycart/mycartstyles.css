@@ -23,19 +23,22 @@ body {
     color: var(--background-color);
 }
 /* front end */
-.remove-link {
-    color: var(--background-color);
-}
-
-/*  */
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
 }
-.move-to-cart{
+.move-to-cart, .move-to-wishlist{
     width: 20rem;
     padding: 0.4rem;
     margin-top: 0.90rem;
+    background-color: var(--button-main-color);
+    border: none;
+    border-radius: 5px;
+    color: var(--background-color);
+}
+.place-order-btn{
+    width: 20rem;
+    padding: 0.4rem;
     background-color: var(--button-main-color);
     border: none;
     border-radius: 5px;
