@@ -32,7 +32,7 @@ body {
 .main-grid-container {
     display: grid;
     grid-template-areas: "menu menu main main main main";
-    grid-gap: 1.5rem;
+    grid-gap: 0.2rem;
     /* padding: 10px; */
 }
 /* front end */
@@ -97,8 +97,8 @@ body {
     padding: 0.2rem 1rem;
     margin: 0.5rem;
 }
-.add-btn,
-.move-to-btn {
+.add-to-cart-btn,
+.move-to-wishlist-btn {
     width: 15rem;
     height: 2.5rem;
     margin-top: 0.5rem;
@@ -107,7 +107,7 @@ body {
     border: none;
     border-radius: 5px;
 }
-.add-btn a{
+.add-to-cart-btn a{
     color: var(--background-color);
     text-decoration: none;
 }
@@ -122,7 +122,7 @@ body {
 .filter {
     display: flex;
     justify-content: space-between;
-    gap: 10rem;
+    gap: 9rem;
     font-weight: bold;
 }
 .clear {
@@ -138,17 +138,16 @@ body {
 .price-slider-text {
     display: flex;
     justify-content: space-between;
-    gap: 4rem;
+    gap: 5rem;
     font-size: small;
 }
 .price-slider {
-    width: 10rem;
+    width: 14rem;
     border: 1px solid var(--grey-color-font);
 }
-
 .text-category {
     font-weight: bold;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 .checkboxes {
     position: relative;
