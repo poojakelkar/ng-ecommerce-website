@@ -76,7 +76,7 @@ body {
     border-radius: 10px;
     text-align: center;
     background-color: var(--light-white);
-    border: 3px solid gray;
+    border: 3px solid var(--grey-color-font);
     opacity: 0.8;
 }
 .image-footer:hover{
