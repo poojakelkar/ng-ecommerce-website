@@ -4,7 +4,7 @@
     --light-white: #e9e9e9;
     --font-black-color: #1111;
     --grey-color-font: #888;
-    --button-main-color: #007BFF;
+    --button-main-color: #007bff;
 }
 
 body {
@@ -51,7 +51,7 @@ body {
     margin: auto;
 }
 .wishlist {
-    margin: 3rem;
+    padding-top: 1.5rem;
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -67,11 +67,11 @@ body {
     right: 0.3rem;
     color: var(--heart-icon-color);
 }
-.wishlist{
+.wishlist {
     margin: auto;
     padding-bottom: 1rem;
 }
-.move-to-cart{
+.move-to-cart {
     width: 15.7rem;
     padding: 0.4rem;
     background-color: var(--button-main-color);
@@ -79,4 +79,3 @@ body {
     border-radius: 5px;
     color: var(--background-color);
 }
-

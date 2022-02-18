@@ -50,7 +50,7 @@ body {
 }
 .card {
     width: 15.7rem;
-    height: 26.6rem;
+    height: 27rem;
     background-color: var(--background-color);
     margin: 1.3rem;
 }
@@ -58,7 +58,7 @@ body {
     width: 15.6rem;
     height: 20rem;
 }
-.price-tag,.img-label {
+.price-tag,.img-label,.img-small-label {
     margin: auto;
 }
 .card .fa-lg {
@@ -92,21 +92,21 @@ body {
     display: flex;
     flex-wrap: wrap;
     padding: 0rem 0rem 0rem 3rem;
+    margin-top: 1rem;
     width: 20rem;
     background-color: var(--background-color);
 }
 .filter {
     display: flex;
-    justify-content: space-between;
-    gap: 9rem;
     font-weight: bold;
 }
 .clear {
     font-weight: 100;
+    margin-left: 10rem;
 }
 .price {
     font-weight: bold;
-    padding: 0rem 2.8rem 0rem 0rem;
+    padding: 0rem 2rem 0rem 0rem;
 }
 .slidecontainer {
     color: var(--grey-color-font);
@@ -114,7 +114,6 @@ body {
 .price-slider-text {
     display: flex;
     justify-content: space-between;
-    gap: 5rem;
     font-size: small;
 }
 .price-slider {
@@ -128,5 +127,5 @@ body {
 .checkboxes {
     position: relative;
     font-size: 1rem;
-    gap: 5rem;
+    /* gap: 5rem; */
 }
