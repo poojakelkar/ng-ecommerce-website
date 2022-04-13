@@ -73,8 +73,8 @@ body {
     width: 16.5rem;
     padding: 0.8rem;
     border: 1px solid var(--button-main-color);
+    background-color: white;
     border-radius: 5px;
-    background-color: var(--light-white);
 }
 /* side bar */
 .side-bar {
