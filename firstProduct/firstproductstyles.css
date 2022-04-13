@@ -76,6 +76,10 @@ body {
     background-color: white;
     border-radius: 5px;
 }
+.move-to-cart:hover {
+    background-color: var(--button-main-color);
+    color: white;
+}
 /* side bar */
 .side-bar {
     display: flex;
